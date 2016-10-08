@@ -42,7 +42,7 @@ $(document)
             oscillator10000.type = 'sine';
             oscillator10000.frequency.value = 5000;
 
-            gainNode.gain.value = 0.0;
+            gainNode.gain.value = 0.1;
 
             oscillator5000.connect(splitterL);
             oscillator10000.connect(splitterR);
